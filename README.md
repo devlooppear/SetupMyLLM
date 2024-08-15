@@ -11,18 +11,28 @@
    cd <dir-name>
    ```
 
-2. Start the Services:
+2. **Start the Services**:
 
 
     ```bash
     docker-compose up -d
     ```
 
-3. Access the Web UI:
+3. **Run an Ollama Model**:
+
+    So, you can run now the following command:
+
+    ```bash
+    docker exec -it ollama ollama run llama3
+    ```
+
+Note: I choose this one, but you can take a lighter model. Check the currently available models in [Ollama Models](https://ollama.com/library).
+
+4. Access the Web UI:
 
 - Open your web browser and go to http://localhost:3000 to start using Open WebUI.
 
-- Select Llama 3:
+- Select Llama 3 (Or the other model choosed):
 
     Once you're in the WebUI, select Llama 3 to start working with your LLM.
 
