@@ -2,6 +2,10 @@
 
 🚀 **This project sets up Ollama with Open WebUI and Llama 3!** With this setup, you can use your LLM without an internet connection and ensure that your data stays private on your own computer.
 
+## 🐳 Requirements
+
+- `Docker`: Ensure Docker version 25 or higher is installed. You can download and install Docker from the [official website](https://docs.docker.com/engine/install/).
+
 ## 🛠️ Setup
 
 1. **Clone the Repository:**
@@ -13,18 +17,17 @@
 
 2. **Start the Services**:
 
-
-    ```bash
-    docker-compose up -d
-    ```
+   ```bash
+   docker-compose up -d
+   ```
 
 3. **Run an Ollama Model**:
 
-    So, you can run now the following command:
+   So, you can run now the following command:
 
-    ```bash
-    docker exec -it ollama ollama run llama3
-    ```
+   ```bash
+   docker exec -it ollama ollama run llama3
+   ```
 
 Note: I choose this one, but you can take a lighter model. Check the currently available models in [Ollama Models](https://ollama.com/library).
 
@@ -34,7 +37,7 @@ Note: I choose this one, but you can take a lighter model. Check the currently a
 
 - Select Llama 3 (Or the other model choosed):
 
-    Once you're in the WebUI, select Llama 3 to start working with your LLM.
+  Once you're in the WebUI, select Llama 3 to start working with your LLM.
 
 ## 🌟 Why Use Your Own LLM Locally?
 
